@@ -1,0 +1,118 @@
+---
+title: <small>An introduction to digital open <br>research in clinical psychology</small>
+author: <small>Matthias Weiler</small>
+date: <small>29.03.2019</small>
+output:
+  revealjs::revealjs_presentation:
+    theme: black
+    center: TRUE
+    self_contained: FALSE
+    incremental: TRUE
+    reveal_plugins: ["chalkboard"]
+    reveal_options:
+      chalkboard: 
+      readonly: FALSE
+---
+
+# <small> What did we do last session?</small>
+
+----
+
+We looked at your research  
+proposal presentations
+
+----
+
+... reviewed your proposals
+
+----
+
+... and selected the  
+final research projects
+
+----
+
+Any questions or anything to add?
+
+
+
+# <small>Last session's homework</small>
+
+----
+
+Who of you applied the suggested  
+changes from the review?
+
+----
+
+... added your research project to  
+the "Research projects" section  
+of the course in the OSF?
+
+----
+
+... registered your research  
+project in the OSF? 
+
+----
+
+... connected your GitHub repository to  
+your research project in the OSF?
+
+----
+
+Any questions regarding  
+last session's homework?
+
+
+
+# <small>Today:<br>Data collection</small>
+
+
+
+# <small>Google Trends</small>
+
+
+
+# <small>Twitter</small>
+
+
+
+# <small>Sentiment analysis</small>
+
+
+
+# <small>Social network analysis</small>
+
+
+
+# <small>Preview: next session</small>
+
+----
+
+"Data analysis"
+
+
+
+# <small>Homework</small>
+
+----
+
+Create your own data collection script
+
+----
+
+Upload your script to GitHub
+
+----
+
+Do NOT upload any passwords,  
+tokens, secrets, ...
+
+
+
+# <small>Any questions?</small>
+
+
+
+# <small>Thank you for your attention</small>
