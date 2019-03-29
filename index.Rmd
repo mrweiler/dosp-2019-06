@@ -40,13 +40,8 @@ Any questions or anything to add?
 
 ----
 
-Who of you applied the suggested  
-changes from the review?
-
-----
-
-... added your research project to  
-the "Research projects" section  
+Who of you added your research project  
+to  the "Research projects" section  
 of the course in the OSF?
 
 ----
@@ -56,8 +51,9 @@ project in the OSF?
 
 ----
 
-... connected your GitHub repository to  
-your research project in the OSF?
+... connected your GitHub  
+repository to your research  
+project in the OSF?
 
 ----
 
@@ -68,21 +64,244 @@ last session's homework?
 
 # <small>Today:<br>Data collection</small>
 
+----
+
+## <small>What I was planning to do</small>
+
+- Google Trends
+- Twitter
+- Sentiment analysis
+- Social network analysis
+
+----
+
+## <small>What we are actually doing</small>
+
+- Introduction to R
+- Google Trends
+- Hellenic Statistical Authority
+
+
+
+# <small>Before we begin...</small>
+
+----
+
+If you are still having trouble with  
+your RStudio installation, please get  
+an account at [https://rstudio.cloud](https://rstudio.cloud)  
+now and work there today
+
+
+
+# <small>Introduction to R</small>
+
+----
+
+Install packages to get new functions.  
+This is how you install the swirl package:  
+
+```{r eval=FALSE}
+install.packages("swirl")
+```
+
+----
+
+Before you can use the package,  
+you have to load the package.  
+This is how you load the swirl package:  
+
+```{r eval=FALSE}
+library("swirl")
+```
+
+----
+
+Start swirl and finish the  
+"Basic Building Blocks" exercise  
+from the "R Programming" course  
+to get in touch with R:
+
+```{r eval=FALSE}
+swirl()
+```
+
+----
+
+If you are interested, you  
+can finish some of the  
+other exercises at home
+
+
+
+# <small>Group competitions</small>
+
+- Please join your team channel
+- Try to find solutions for the  
+next exercises as a team  
+- Let your team captains post the  
+answers in the #data_collection  
+channel
+
+----
+
+If you get stuck, I will post hints  
+in the #data_collection channel
+
+----
+
+Any questions?
+
+
+
+# <small>Let's go</small>
+
 
 
 # <small>Google Trends</small>
 
+```{r cache=FALSE, echo=FALSE}
+knitr::read_chunk('analysis/google_trends.R')
+```
 
 
-# <small>Twitter</small>
+- Find a way to access Google Trends
+- Define your search parameters
+- Evaluate your data
+- Save your results
+
+----
+
+## <small>Find a way to access Google Trends</small>
+
+- Find an R package to access Google Trends
+- Post the R code to install the package
+
+----
+
+## <small>Find a way to access Google Trends - Solution</small>
+
+```{r install package, eval=FALSE}
+```
+
+----
+
+## <small>Define your search parameters</small>
+
+- Search for the keywords "social phobia"  
+and "fobia social"
+- ... in Chile and UK
+- ... in the year 2018
+- Post your query as R code
+
+----
+
+## <small>Define your search parameters - Solution</small>
+
+```{r google trends query}
+```
+
+----
+
+## <small>Evaluate your data</small>
+
+- Get the data for interest over time
+- Post your R code
+
+----
+
+## <small>Evaluate your data - Solution</small>
+
+```{r get interest over time}
+```
+
+----
+
+## <small>Save your results</small>
+
+- Save your results as a csv file
+- Post your R code
+
+----
+
+## <small>Save your results - Solution</small>
+
+```{r save data}
+```
 
 
 
-# <small>Sentiment analysis</small>
+# <small>Hellenic Statistical Authority</small>
 
+```{r cache=FALSE, echo=FALSE}
+knitr::read_chunk('analysis/hell_stat.R')
+```
 
+- Find data about deaths in Greece
+- Download data
+- Import data
+- Extract relevant data
 
-# <small>Social network analysis</small>
+----
+
+## <small>Find data about deaths in Greece</small>
+
+- Post the URL (= web address) of the xlsx file  
+with causes of death from 2000-2016 from the  
+Hellenic Statistical Authority website
+
+----
+
+## <small>Find data about deaths in Greece - Solution</small>
+
+```{}
+http://www.statistics.gr/documents/20181/995819/Deaths+-+Causes+of+death+%28ICD-9%29+%28+2000+-+2016+%29/13fcec78-6b8a-4d04-bca6-e84d2d127887?version=1.0
+```
+
+----
+
+## <small>Download data</small>
+
+- Find a way to download the xlsx file   
+using R code. 
+- Post your R code.
+
+----
+
+## <small>Download data - Solution</small>
+
+```{r download data, results='hide'}
+```
+
+----
+
+## <small>Import data</small>
+
+- Find a way to import the xlsx file  
+using R code. 
+- Post your R code.
+
+----
+
+## <small>Import data - Solution</small>
+
+```{r import data, message=FALSE}
+```
+
+----
+
+## <small>Extract relevant data</small>
+
+- Extract the number of suicides for  
+both genders using R code.  
+- Post your R code.
+
+----
+
+## <small>Extract relevant data - Solution</small>
+
+```{r extract relevant data}
+```
 
 
 
@@ -103,11 +322,6 @@ Create your own data collection script
 ----
 
 Upload your script to GitHub
-
-----
-
-Do NOT upload any passwords,  
-tokens, secrets, ...
 
 
 
